@@ -1,0 +1,14 @@
+{
+  "flex-layout.col.search": {
+    "allowed": ["rich-text", "filter-navigator.v3"]
+  },
+  "flex-layout.col.search-content": {
+    "allowed": [
+      "image",
+      "search-content",
+      "search-fetch-more",
+      "search-products-count-per-page",
+      "search-fetch-previous"
+    ]
+  }
+}
