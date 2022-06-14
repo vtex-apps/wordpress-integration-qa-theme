@@ -131,7 +131,7 @@
   "stack-layout#summaryListDesktop": {
     "children": [
       "product-summary-image#summaryListDesktop",
-      "vtex.product-highlights@2.x:product-highlights#collection",
+      "vtex.product-highlights:product-highlights#collection",
       "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
@@ -158,7 +158,7 @@
   "stack-layout#summaryListMobile": {
     "children": [
       "product-summary-image#summaryListMobile",
-      "vtex.product-highlights@2.x:product-highlights#collection",
+      "vtex.product-highlights:product-highlights#collection",
       "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
