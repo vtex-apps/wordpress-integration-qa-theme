@@ -35,8 +35,9 @@
   },
   "blog-latest-posts-preview.wordpress-latest-posts-preview": {
     "props": {
-      "title": "Latest Posts",
-      "useTextOverlays": true
+      "title": "Latest post",
+      "useTextOverlays": true,
+      "twoColumns": true
     }
   },
   "blog-category-preview.wordpress-category-preview#test": {
@@ -54,16 +55,10 @@
     }
   },
   "blog-post-details.wordpress-post-details": {
-    "children": [
-      "blog-related-products.wordpress-related-products",
-      "blog-breadcrumb.wordpress-breadcrumb"
-    ]
+    "children": ["blog-related-products.wordpress-related-products"]
   },
   "blog-page-details.wordpress-page-details": {
-    "children": [
-      "blog-related-products.wordpress-related-products",
-      "blog-breadcrumb.wordpress-breadcrumb"
-    ]
+    "children": ["blog-related-products.wordpress-related-products"]
   },
   "blog-related-products.wordpress-related-products": {
     "blocks": ["product-summary.shelf"],
@@ -80,7 +75,6 @@
   },
   "product-summary.shelf": {
     "children": [
-      "blog-breadcrumb.wordpress-breadcrumb",
       "product-summary-add-to-list-button",
       "product-summary-image",
       "product-summary-name",

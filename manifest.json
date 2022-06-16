@@ -1,9 +1,9 @@
 {
   "vendor": "vtex",
   "name": "wordpress-integration-qa-theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "builders": {
-    "styles": "2.x",
+    "styles": "1.x",
     "store": "0.x",
     "sitemap": "0.x",
     "docs": "0.x"
